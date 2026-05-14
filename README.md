@@ -20,10 +20,6 @@ DevEnv Studio is a Windows utility for backing up and restoring development envi
 * PowerShell
 * WinForms
 
-## Screenshots
-
-*Add screenshots here.*
-
 ---
 
 ## Installation
