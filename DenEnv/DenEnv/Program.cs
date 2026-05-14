@@ -4,6 +4,7 @@ using System.IO;
 
 class Program
 {
+    [STAThread]
     static void Main()
     {
         string scriptPath = Path.Combine(
