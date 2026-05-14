@@ -7,11 +7,13 @@ DevEnv Studio is a Windows utility for backing up and restoring development envi
 * Development environment backup
 * Restore from ZIP archives
 * Automatic backup detection
+* Desktop backup storage
 * PowerShell automation
 * WinForms graphical interface
 * Portable standalone executable
 * Digital signature support
-* GitHub release support
+
+---
 
 ## Technologies Used
 
@@ -35,22 +37,8 @@ DevEnv Studio is a Windows utility for backing up and restoring development envi
 
 * ZIP archive creation
 * Automatic backup search
-* Desktop backup storage
 * Restore system support
 * Environment migration support
-
----
-
-## Project Structure
-
-```text
-DevEnvStudio/
-├── Program.cs
-├── script.ps1
-├── app.manifest
-├── DevEnv.csproj
-└── assets/
-```
 
 ---
 
@@ -62,19 +50,26 @@ Requirements:
 * .NET SDK
 * Windows SDK
 
-Build steps:
+Clone repository:
 
 ```powershell
 git clone https://github.com/Skretchati132/DevEnvStudio.git
 ```
 
-Open the solution in Visual Studio and build in Release x64 mode.
+Open the solution in Visual Studio and build using:
+
+* Release
+* x64
+
+configuration.
 
 ---
 
 ## License
 
-This project is provided for educational and personal use.
+This project is licensed under the MIT License.
+
+See the `LICENSE` file for details.
 
 ---
 
